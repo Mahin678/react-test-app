@@ -1,0 +1,32 @@
+.blog {
+	.blog--content {
+		img {
+			width: 240px;
+			height: 229px;
+			position: relative;
+		}
+		button {
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin: 10px 20px;
+			background-color: green;
+			color: white;
+			border: none;
+		}
+		.blog--content--body {
+			.blog--content--footer {
+				position: absolute;
+				bottom: -50px;
+				left: 0;
+				color: white;
+				display: flex;
+				margin: 10px 20px;
+
+				p {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

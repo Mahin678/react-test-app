@@ -1,0 +1,28 @@
+.AllProductHeadMain {
+	.AllProductHeadMain--wrapper {
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		display: flex;
+		height: 100px;
+		align-items: center;
+		justify-content: space-between;
+		input {
+			border-right: none;
+		}
+		.shape {
+			height: 35px;
+			margin: 0px 0px 0px 25px;
+			width: 2px;
+			background-color: #ddd;
+		}
+		.input-group-prepend {
+			.form-control {
+				border-right: none;
+			}
+			span {
+				background-color: #fff;
+				border-left: none;
+			}
+		}
+	}
+}
